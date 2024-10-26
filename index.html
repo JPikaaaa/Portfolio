@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="profile-info">
+        <h1>Jay Vaughn C. Ramirez</h1>
+        <p>Student Developer</p>
+    </div>
+        </div>
+        <img src="https://scontent.fmnl13-3.fna.fbcdn.net/v/t39.30808-6/448377728_1843468012725758_7814751292184844110_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEo_-UQkd-bkUyDjUeRMts8r1_gKDqV4l2vX-AoOpXiXXK6hKf-3GkPqRbKK778hNvPnBVdRW4HVC-Rog5Q40QM&_nc_ohc=zPcGowJF9HQQ7kNvgFi-MtQ&_nc_ht=scontent.fmnl13-3.fna&_nc_gid=AHhKGScfMus-Y2SzaQ0zxrM&oh=00_AYCG1U28Kp-K6emUyOWiZM0FgAczOpX5q04ZSlGYrTNW8w&oe=6722867D" class="profile-image">
+    </div>
+    </header>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="/images/minesweeper.png" alt="Project 1">
+                    <div class="project-content">
+                        <h3>Minesweeper Game</h3>
+                        <p>A game project made using HTML, CSS and JavaScript codes. It reminisces the Minesweeper game we all knew</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/images/TicTacToe.png" alt="Project 2">
+                    <div class="project-content">
+                        <h3>TicTacToe Game</h3>
+                        <p>Similar to the Minesweeper Game, it is made using HTML, CSS and Javascript codes. A tic tac toe game with a computer opponent.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/images/Breakout.png" alt="Project 3">
+                    <div class="project-content">
+                        <h3>Project 3</h3>
+                        <p>Similar to both Minesweeper and TicTacToe game, this game is also made using HTML, CSS and Javascript codes. A clone of one of the famous retro game there is.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML5</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span class="skill-name">CSS3</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">40%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 40%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span class="skill-name">React</span>
+                        <span class="skill-percentage">55%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 55%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jay Vaughn C. Ramirez. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
